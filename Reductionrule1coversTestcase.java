@@ -13,10 +13,10 @@ public class Reductionrule1coversTestcase extends TestCase {
 	}
 	@Test
 	public void test() {
-		Reductionrule1covers z = new Reductionrule1covers();
-		//z.reductioncover();
+		Reductionrule1cover z = new Reductionrule1cover();
+		z.reductioncover();
 
-		//equals(2);
+		equals(2);
 
 	}
 	public static void main(String[] args)
