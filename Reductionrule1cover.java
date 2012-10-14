@@ -31,7 +31,8 @@ while (j<=e)
 	 Scanner s = new Scanner(System.in);
 	 int k=Integer.parseInt(s.nextLine());
 	 int r=Integer.parseInt(s.nextLine());
-        for(int i=1;i<=v;i++)
+	 int i=0;
+        for (i=1;i<=v;i++)
         {
         int x;
         
@@ -42,14 +43,15 @@ while (j<=e)
         	if(d>=x)
         	{
         		g.removeVertex(i);
-        		k=k-1;
-        		 
+        		
+        		 k=k-1;
         		 System.out.println("Graph after the deleting the vertex" +i+ "is");
         		System.out.println( g.toString());
+        		
         	}
-        	else
-        		break;
-        System.out.println(g.toString());       
+        	
+        	
+        }
+        //System.out.println(g.toString());       
  }}
-}
  
